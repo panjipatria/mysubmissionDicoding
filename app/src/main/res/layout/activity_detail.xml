@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="#699">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/tv_club_name"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <RelativeLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_item_logoClub"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+            <LinearLayout
+                android:paddingLeft="5dp"
+                android:orientation="vertical"
+                android:layout_toRightOf="@id/img_item_logoClub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/julukan"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="JULUKAN"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/tv_club_julukan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/julukan"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/berdiri"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="BERDIRI"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/tv_club_since"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/berdiri"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/stadium"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="STADIUM"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/tv_club_stadium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/stadium"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/liga"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="LIGA"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/tv_club_liga"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/liga"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/manager"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="MANAGER"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#000"
+                        android:id="@+id/tv_club_manager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/manager"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="TENTANG"
+                android:textStyle="bold"/>
+            <TextView
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tv_club_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MANAGER"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
