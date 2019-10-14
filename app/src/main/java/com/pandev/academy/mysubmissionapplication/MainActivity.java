@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -97,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         Intent aboutActivity = new Intent(MainActivity.this, about_activity.class);
         aboutActivity.putExtra(about_activity.EXTRA_NAMEABOUT, "PANJI PATRIA");
         aboutActivity.putExtra(about_activity.EXTRA_EMAIL, "panjinohnah@gmail.com");
-        aboutActivity.putExtra(about_activity.EXTRA_IMAGE, "https://scontent-sin2-2.xx.fbcdn.net/v/t1.0-9/16265407_10208196155770009_4582658518688158899_n.jpg?_nc_cat=108&_nc_oc=AQncb7tBGeaAHdKZozjmROUEd2hrYz_Hb85VQyEu8PBe_ROT6hpWIVY6zTvjJf12OQc&_nc_ht=scontent-sin2-2.xx&oh=8445037c7261119362566b18a62dad79&oe=5DC9CE05");
+        aboutActivity.putExtra(about_activity.EXTRA_IMAGE, R.drawable.ipan);
         startActivity(aboutActivity);
 
     }

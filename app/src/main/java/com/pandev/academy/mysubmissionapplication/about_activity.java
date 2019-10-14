@@ -25,7 +25,7 @@ public class about_activity extends AppCompatActivity {
 
         String name = getIntent().getStringExtra(EXTRA_NAMEABOUT);
         String email = getIntent().getStringExtra(EXTRA_EMAIL);
-        String image = getIntent().getStringExtra(EXTRA_IMAGE);
+        Integer image = getIntent().getIntExtra(EXTRA_IMAGE, 0);
 
         tvNameAobout.setText(name);
         tvEmail.setText(email);
